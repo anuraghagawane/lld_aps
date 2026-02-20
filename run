@@ -1,0 +1,15 @@
+#!/bin/bash
+
+filename=$1
+name=$(echo "$filename" | cut -f 1 -d '.')
+
+if [[ -z "$filename" ]]; then
+  echo "USAGE: run {filename.cpp}"
+  exit
+fi
+
+g++ "$filename" -o "$name"
+
+./"$name"
+
+rm $name
