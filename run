@@ -1,14 +1,17 @@
 #!/bin/bash
 
+scriptname="$(basename $0)"
 filename=$1
 name=$(echo "$filename" | cut -f 1 -d '.')
 
 if [[ -z "$filename" ]]; then
-  echo "USAGE: run {filename.cpp}"
+  echo "USAGE: $scriptname {filename}.cpp"
   exit
 fi
 
-g++ "$filename" -o "$name"
+if ! g++ "$filename" -o "$name"; then
+  exit 1
+fi
 
 ./"$name"
 
