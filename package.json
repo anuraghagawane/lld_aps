@@ -1,0 +1,18 @@
+{
+  "name": "lld-learning",
+  "version": "1.0.0",
+  "description": "Low-level design patterns and principles in C++ and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "ts-run": "ts-node",
+    "tsc": "tsc"
+  },
+  "keywords": ["lld", "design-patterns", "typescript", "cpp"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.10.0"
+  }
+}
