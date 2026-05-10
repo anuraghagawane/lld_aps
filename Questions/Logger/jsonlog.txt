@@ -1,0 +1,6 @@
+{"timestamp":"2026-05-06 10:09:11","level":"FATAL","message":"Hello"}
+{"timestamp":"2026-05-06 10:09:11","level":"ERROR","message":"error at 1"}
+{"timestamp":"2026-05-06 10:10:32","level":"FATAL","message":"Hello"}
+{"timestamp":"2026-05-06 10:10:32","level":"ERROR","message":"error at 1"}
+{"timestamp":"2026-05-10 23:39:24","level":"FATAL","message":"Hello"}
+{"timestamp":"2026-05-10 23:39:24","level":"ERROR","message":"error at 1"}
